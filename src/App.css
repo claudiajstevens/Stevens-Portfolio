@@ -1,5 +1,85 @@
+/* ****** Color Pallete ********
+  Indigo-Purple : #BCB4FF
+  Lime Green : #E2F08F
+  Almost Black : #141414
+  Light Fusha: #EDB4F8
+  Orange : #FFB985
+
+*/
+
+/* Custom Fonts */
+@font-face {
+  font-family: Caprasimo;
+  src: url('./assets/fonts/Caprasimo-Regular.ttf');
+  font-weight: 700;
+}
+
+
+/* ********** Banner CSS ********** */
+.banner {
+  background-color: #BCB4FF;
+  color: #141414;
+  position: relative;
+}
+
+/* .banner-info {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+
+.banner-info .hello {
+  font-family: Caprasimo;
+  color: #E2F08F;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 2em;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+}
+
+
+/* ********** Connect CSS ********** */
+.connect{
+  background-color: #EDB4F8;
+}
+
+.connect h1{
+  font-family: Caprasimo;
+  color: #141414;
+  font-size: 35px;
+}
+
+/* .input-bx{
+  border-color: #FFB985;
+  border-width: 1px;
+} */
+
+.submit-button{
+  font-family: Caprasimo;
+  background-color: #E2F08F;
+  /* border: #141414; */
+}
+
+
+/* ********** Footer CSS ********** */
+.footer {
+  background-color: #FFB985;
+  width: 100%;
+  position: relative;
+  font-family: Caprasimo;
+  color: #141414;
+}
+
+
+
 .App {
   text-align: center;
+  color: #141414;
 }
 
 .App-logo {
