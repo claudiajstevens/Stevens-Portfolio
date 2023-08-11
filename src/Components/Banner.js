@@ -8,14 +8,13 @@ function Banner() {
                     <p>Software Engineer</p>
                 </div>          
             </div>
-            <div className="contact-info">
-                <h1 className="text-[#E2F08F] font-bold">Hi,
-                Claudia Stevens - Software Engineer</h1>
+            <div className="contact-info rounded-full my-8 mx-8 w-11/12">
                 <p>claudiajstevens@gmail.com</p>
                 <p>916-494-8202</p>
-                <a href="https://github.com/claudiajstevens" target="_blank">GitHub</a>
+                <a href="https://github.com/claudiajstevens" target="_blank" className="hover:text-[#FFB985] hover:font-bold">GitHub</a>
                 <p>Resume</p> 
             </div>
+
 
       </div>
     )

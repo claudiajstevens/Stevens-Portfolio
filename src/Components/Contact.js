@@ -1,6 +1,6 @@
 function Contact(){
     return(
-        <section className="connect mx-auto w-11/12">
+        <section className="connect mx-8 my-8 w-11/12 rounded-r-full">
             <div className="connect py-8 px-4 mx-auto lg:py-16 max-w-screen-md">
                 <h1 className="mb-4 text-center">Connect With Me</h1>
                 <form className="space-y-6">

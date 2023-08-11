@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.contact-info {
+  background-color: #E2F08F;
+}
+
 /* .banner-info {
   margin: 0;
   position: absolute;
